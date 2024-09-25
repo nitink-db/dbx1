@@ -6,6 +6,7 @@ from pyspark.sql.functions import col
 # must create a Spark session. Databricks notebooks
 # create a Spark session for you by default.
 # create a Spark session for you by default.
+# create a Spark session for you by default--2
 spark = SparkSession.builder \
                     .appName('integrity-tests') \
                     .getOrCreate()
