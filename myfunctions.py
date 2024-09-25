@@ -7,6 +7,7 @@ from pyspark.sql.functions import col
 # create a Spark session for you by default.
 # create a Spark session for you by default.
 # create a Spark session for you by default--2
+# create a Spark session for you by default--3
 spark = SparkSession.builder \
                     .appName('integrity-tests') \
                     .getOrCreate()
